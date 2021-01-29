@@ -1,0 +1,29 @@
+
+.search-bar label{
+    color: $dark-grey-color;
+    width: 15%;
+    
+}
+
+.input-group{
+    max-width: 20rem;
+
+}
+
+button.search{
+    background-color: #ECECEC;
+    color: #FFF;
+   
+}
+
+
+input.form-control.search{
+    border: 1px solid #ECECEC;
+    background-color: #ECECEC;
+    color: $dark-grey-color;
+    height: 2.5rem;
+    max-width: 100%;
+}
+
+
+

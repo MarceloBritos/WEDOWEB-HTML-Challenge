@@ -1,0 +1,33 @@
+.card{
+    border: 0px;
+    
+    &:hover{
+    cursor: pointer;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+
+}
+
+.card-bottom{
+    background-color: #ECECEC;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.card-img{
+    width: 20%;
+}
+
+.card-info p{
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+    line-height: 1;
+}
+
+.load-more{
+    color: $primary-color;
+    font-weight: 600;
+
+    &:hover{
+        color: $primary-color;
+    }
+}

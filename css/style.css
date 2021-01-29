@@ -1,0 +1,158 @@
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.logo span {
+  display: none;
+}
+
+.btn {
+  background-color: #C23F81;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.btn:hover, .btn:active, .btn:focus {
+  background-color: #74667E !important;
+}
+
+.navbar-toggler:hover, .navbar-toggler:active, .navbar-toggler:focus {
+  outline: 0 !important;
+}
+
+.navbar-toggler {
+  text-align: right;
+  padding-right: 0px;
+}
+
+
+
+h2.gallery-title {
+  color: #FFF;
+  position: absolute;
+  bottom: 0.9%;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.gallery-title-background {
+  background: url("../images/gallery-background.svg") no-repeat;
+  background-size: cover;
+  height: 13rem;
+}
+
+.search-bar label {
+  color: #313131;
+  width: 15%;
+}
+
+input.form-control.search {
+  border: 1px solid #ECECEC;
+  background-color: #ECECEC;
+  color: #313131;
+  height: 2.5rem;
+  max-width: 100%;
+}
+
+button.search {
+  background-color: #ECECEC;
+  color: #FFF;
+}
+
+.input-group {
+  max-width: 20rem;
+}
+
+.card {
+  border: 0px;
+}
+
+.card:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+          box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.card-bottom {
+  background-color: #ECECEC;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.card-img {
+  width: 20%;
+}
+
+.card-info p {
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+  line-height: 1;
+}
+
+.load-more {
+  color: #C23F81;
+  font-weight: 600;
+}
+
+.load-more:hover {
+  color: #C23F81;
+}
+
+footer {
+  background-color: #313131;
+  border-top: 6px solid #C23F81;
+}
+
+footer p {
+  color: #FFF;
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 1rem 0px 0.5rem 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .btn-primary {
+    display: none;
+  }
+  .search-bar.my-5 {
+    margin: 2rem 0px !important;
+  }
+  .search-bar label {
+    display: none;
+  }
+  .input-group {
+    width: 90%;
+    margin: 0px auto;
+    max-width: none;
+  }
+  section.album {
+    padding-top: 1rem !important;
+  }
+  footer h1 {
+    display: none;
+  }
+  footer p {
+    margin: 0.8rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 770px) {
+  .search-bar label {
+    margin-left: 0px !important;
+    width: 20%;
+  }
+}
+
+
+@media (min-width: 480px) {
+  .navbar-toggler {
+    display: none;
+  }
+}
+

@@ -1,0 +1,50 @@
+
+@media (max-width: $breakpoint-mobile) {
+    .btn-primary{
+        display: none;
+    }
+
+    .search-bar.my-5{
+        margin: 2rem 0px !important; 
+    }
+
+    .search-bar label{
+        display: none; 
+    }
+    
+    .input-group{
+        width: 90%;
+        margin: 0px auto;
+        max-width: none;
+     }
+
+     section.album{
+         padding-top:1rem !important ;
+     }
+
+     footer {
+        h1{
+            display: none;
+        }
+        p{
+            margin: 0.8rem;
+        }        
+
+    }    
+
+}
+
+@media (min-width: $breakpoint-mobile) {
+
+    .navbar-toggler{
+        display: none;
+    }
+}
+
+@media (min-width: $breakpoint-mobile) and (max-width: $breakpoint-tablet){
+
+   .search-bar label{
+       margin-left: 0px !important;
+       width: 20%;
+   }
+}

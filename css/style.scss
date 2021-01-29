@@ -1,0 +1,20 @@
+
+$breakpoint-mobile: 480px;
+$breakpoint-tablet: 770px;
+$primary-color: #C23F81;
+$secondary-color: #74667E;
+$light-grey-color: #B2B2B2;
+$dark-grey-color: #313131;
+
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+
+@import "header";
+@import "search";
+@import "gallery";
+@import "cards";
+@import "footer";
+@import "mediaqueries";
